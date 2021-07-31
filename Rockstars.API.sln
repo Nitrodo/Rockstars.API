@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rockstars.API", "Rockstars.API\Rockstars.API.csproj", "{B4D02F75-51C5-499B-9687-2397C7C2D6E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rockstars.Domain", "Rockstars.Domain\Rockstars.Domain.csproj", "{9A9EC1B3-56E8-47F1-9613-B2A155BF9130}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rockstars.Application", "Rockstars.Application\Rockstars.Application.csproj", "{E3190B28-7333-4CF3-8906-EF42DE038655}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rockstars.Infrastructure", "Rockstars.Infrastructure\Rockstars.Infrastructure.csproj", "{C18E1C26-83FD-44B3-A26A-AF94E3228236}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{6A6A65BF-8598-4C57-9E9F-DC5635834698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rockstars.Application.UnitTests", "Rockstars.Application.UnitTests\Rockstars.Application.UnitTests.csproj", "{ABC47832-5D2D-4FFD-88A6-3CA45376F7E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4D02F75-51C5-499B-9687-2397C7C2D6E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D02F75-51C5-499B-9687-2397C7C2D6E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D02F75-51C5-499B-9687-2397C7C2D6E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D02F75-51C5-499B-9687-2397C7C2D6E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A9EC1B3-56E8-47F1-9613-B2A155BF9130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A9EC1B3-56E8-47F1-9613-B2A155BF9130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A9EC1B3-56E8-47F1-9613-B2A155BF9130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A9EC1B3-56E8-47F1-9613-B2A155BF9130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3190B28-7333-4CF3-8906-EF42DE038655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3190B28-7333-4CF3-8906-EF42DE038655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3190B28-7333-4CF3-8906-EF42DE038655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3190B28-7333-4CF3-8906-EF42DE038655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C18E1C26-83FD-44B3-A26A-AF94E3228236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18E1C26-83FD-44B3-A26A-AF94E3228236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18E1C26-83FD-44B3-A26A-AF94E3228236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18E1C26-83FD-44B3-A26A-AF94E3228236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC47832-5D2D-4FFD-88A6-3CA45376F7E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC47832-5D2D-4FFD-88A6-3CA45376F7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC47832-5D2D-4FFD-88A6-3CA45376F7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC47832-5D2D-4FFD-88A6-3CA45376F7E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ABC47832-5D2D-4FFD-88A6-3CA45376F7E2} = {6A6A65BF-8598-4C57-9E9F-DC5635834698}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {934674C3-C564-4516-81A9-D92771D67D7F}
+	EndGlobalSection
+EndGlobal
